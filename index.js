@@ -115,6 +115,7 @@ export default class Ripple extends PureComponent {
     if ('function' === typeof onPressIn) {
       onPressIn(event);
     }
+    this.startRipple(event);
   }
 
   onPressOut(event) {
